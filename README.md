@@ -2,7 +2,7 @@
 :This is the first challenge (easy)
 
 - [Links](#links)
-: https://fe-mentor-challenge-30f4cnd7g-sarahsimorangkir.vercel.app/
+: https://fe-mentor-challenge-git-1qr-code-sarahsimorangkir.vercel.app/ 
 
 - [Screenshot](#screenshot)
 <img alt="result" src="./src/assets/resultDesktop.jpeg" width="500" />
