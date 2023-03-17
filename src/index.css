@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+ body{
+  font-family: 'Outfit', sans-serif;
+  background-color:  hsl(212, 45%, 89%);
+ }
+.App{
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 20vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img{
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+}
+.App > .Card{
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid #bacdd8;
+  padding: 8px;
+  border-radius: 12px;
+}
+.Caption{
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  color:  hsl(218, 44%, 22%);
+}
+.CapDetails{
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  div.App {
+    max-width: 200px;
+  }
 }
