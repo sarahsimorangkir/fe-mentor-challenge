@@ -11,7 +11,7 @@ function App() {
           </p>
           <p className="CapDetails">
             Scan the QR Code to visit Frontend Mentor and take your coding
-            skills to the next level
+            skills to the next level!
           </p>
         </div>
       </div>
